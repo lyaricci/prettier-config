@@ -1,0 +1,25 @@
+{
+  "name": "prettier-config",
+  "version": "1.0.0",
+  "description": "A shareable Prettier configuration",
+  "main": ".prettierrc",
+  "scripts": {
+    "format": "prettier --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:lyaricci/prettier-config.git"
+  },
+  "keywords": [
+    "prettier",
+    "formatter",
+    "configuration",
+    "format",
+    "prettierconfig"
+  ],
+  "author": "Nathálya Ricci",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^3.1.1"
+  }
+}
