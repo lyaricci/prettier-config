@@ -2,10 +2,11 @@
   "name": "@nathalyaricci/prettier-config",
   "version": "1.0.0",
   "description": "A shareable Prettier configuration",
-  "main": ".prettierrc",
+  "main": "index.json",
   "scripts": {
     "format": "prettier --write ."
   },
+  "prettier": "index.json",
   "repository": {
     "type": "git",
     "url": "git@github.com:lyaricci/prettier-config.git"
